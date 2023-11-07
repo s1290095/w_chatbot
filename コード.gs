@@ -65,7 +65,7 @@ function doPost(e) {
       "Authorization": "Bearer "+ props.getProperty('API_KEY')
     },
     "payload": JSON.stringify({
-      "model": "gpt-4",
+      "model": "gpt-4-1106-preview",
       "messages": [
         {"role": "system", "content": botRoleContent},
         {"role": "user", "content": userMessage}
